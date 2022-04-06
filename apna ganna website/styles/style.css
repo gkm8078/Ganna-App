@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* navbar css start */
+#navbar{
+    display: flex;
+    justify-content: center;
+    padding: 17px 0px;
+    background-color: #21252d;
+    position: sticky;
+    top: 0%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#navbar > input{
+    padding: 8px 1%;
+    border: none;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+#search-button{
+    width: 10%;
+    background-color: #ff0000;
+    color: #ffffff;
+    margin: 0% 1%;
+    letter-spacing: .8px;
+    font-weight: 600;
+}
+
+#search-value{
+    width: 35%;;
+    background-color: #f2f2f2;
+}
+/* navbar css ends */
+
+
+/* songs list css start */
+#songs-list{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 50px 0px;
+    background-color: #0c0f12;
+}
+
+.song-container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 12px 2%;
+    justify-content: space-between;
+    border-radius: 6px;
+    color: #ffffff;
+    background-color: #15181b;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.song-container > div > h1{
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.song-container > div > p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.song-container iframe{
+    height: 140px;
+    border: none;
+}
+/* songs list css ends */
